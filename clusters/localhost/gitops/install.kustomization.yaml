@@ -8,7 +8,7 @@ spec:
   force: true
   dependsOn:
     - name: prepare
-  interval: 120s
+  interval: 140s
   path: clusters/localhost/install
   prune: true
   sourceRef:

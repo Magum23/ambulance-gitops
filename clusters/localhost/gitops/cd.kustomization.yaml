@@ -5,7 +5,7 @@ metadata:
   namespace: wac-hospital
 spec:
   wait: true
-  interval: 42s
+  interval: 60s
   path: clusters/localhost
   prune: true
   sourceRef:

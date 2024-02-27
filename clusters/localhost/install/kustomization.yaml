@@ -10,3 +10,4 @@ commonLabels:
 
 resources:
   - ../../../apps/magum-ambulance-ufe
+  - ../../../infrastructure/fluxcd

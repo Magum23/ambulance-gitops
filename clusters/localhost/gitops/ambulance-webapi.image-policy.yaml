@@ -7,7 +7,7 @@ spec:
   imageRepositoryRef:
     name: ambulance-webapi # referuje ImageRepository z predchádzajúceho kroku
   filterTags:
-    pattern: "main.*" # vyberie všetky verzie, ktoré začínajú na main- (napr. main-20240315.1200)
+    pattern: "master.*" # vyberie všetky verzie, ktoré začínajú na master- (napr. master-20240315.1200)
   policy:
     alphabetical:
       order: asc

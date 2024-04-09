@@ -12,7 +12,7 @@ patches:
         path: "/spec/template/spec/containers/0/env/-"
         value:
           name: "HTTP_CSP_HEADER"
-          value: "default-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://fonts.gstatic.com/; font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/; script-src 'nonce-{NONCE_VALUE}'; connect-src 'self' http://192.168.49.2/:30331 http://192.168.49.2/:30081"
+          value: "default-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://fonts.gstatic.com/; font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/; script-src 'nonce-{NONCE_VALUE}'; connect-src 'self' 192.168.49.2:30331 192.168.49.2:30081"
     target:
       group: apps
       version: v1

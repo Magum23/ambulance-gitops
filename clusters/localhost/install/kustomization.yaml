@@ -10,7 +10,12 @@ commonLabels:
 
 resources:
   - ../../../apps/magum-ambulance-ufe
+  - ../../../apps/magum-ambulance-webapi
   - ../../../infrastructure/fluxcd
 
 components:
   - ../../../components/version-developers
+  - https://github.com/Magum23/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml

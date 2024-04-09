@@ -16,7 +16,7 @@ spec:
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
       attributes:
       - name: api-base
-        value: http://192.168.49.2/:30081/api
+        value: http://localhost:30081/api
       - name: ambulance-id
         value: bobulova
   preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou

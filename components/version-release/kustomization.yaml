@@ -4,7 +4,9 @@ images:
 - name: magum/ambulance-ufe
   newName: magum/ambulance-ufe
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
-
+- name: magum/ambulance-wl-webapi
+  newName: magum/ambulance-wl-webapi
+  newTag: 1.1.0
 replacements:
  - targets:
    - select:

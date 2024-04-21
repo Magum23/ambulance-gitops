@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/magum-ambulance-ufe
+ - ../../../apps/magum-ambulance-webapi
 
 
 components:

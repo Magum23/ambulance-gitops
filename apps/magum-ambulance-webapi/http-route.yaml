@@ -34,15 +34,15 @@ spec:
           name: magum-openapi-ui
           port: 80
     - matches:
-      - path:
-          type: Exact
-          value: /magum-openapi
+        - path:
+            type: Exact
+            value: /magum-openapi
       filters:
-      - type: URLRewrite
-        urlRewrite:
-          path:
-            type: ReplaceFullPath
-            replaceFullPath: /openapi
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplaceFullPath
+              replaceFullPath: /openapi
       backendRefs:
         - group: ""
           kind: Service

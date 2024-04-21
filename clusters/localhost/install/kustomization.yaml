@@ -12,6 +12,7 @@ resources:
   - ../../../apps/magum-ambulance-ufe
   - ../../../apps/magum-ambulance-webapi
   - ../../../infrastructure/fluxcd
+  - ../../../apps/mongo-express
 
 components:
   - ../../../components/version-developers
